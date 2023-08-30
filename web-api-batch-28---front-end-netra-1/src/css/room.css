@@ -1,0 +1,58 @@
+
+.room-banner{
+    width:100%;
+    height: 60vh;
+    background:url('../images/room/room_banner.jpg') no-repeat center;
+    background-size: cover;
+    padding:3.8rem 0 9.375rem;
+}
+.room-h1{
+    color: var(--primary-color);
+}
+
+.room-h2{
+    color: white;
+}
+
+.room-banner p{
+    color: white;
+}
+
+.room-below-search{
+    margin-top:-50px;
+}
+
+@media (max-width: 991px) {
+    .room-banner{
+        padding:5.375rem 0 9.375rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .room-banner{
+        padding:6.375rem 0 9.375rem;
+    }
+    .room-banner p{
+    color: white;
+    font-size: 15px;
+}
+}
+
+.room_data .card{
+    background-color: transparent;
+    border: 1px solid var(--secondary-color) !important;
+    border-radius: 0.9375rem;
+}
+.room_data .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.room_price_css{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--secondary-color);
+}
+.below-banner-room-p{
+    margin-bottom: -45px !important;
+    padding: 0px !important;
+}

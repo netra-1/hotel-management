@@ -1,0 +1,36 @@
+
+.food-banner{
+  width:100%;
+  height: 60vh;
+  background:url('../images/food/food_banner3.jpg') no-repeat center;
+  background-size: cover;
+  padding:5.875rem 0 9.375rem;
+}
+.food-h1{
+    color: var(--primary-color);
+}
+
+.food-h2{
+    color: var(--secondary-color);
+}
+
+.food-card-padding{
+    margin-bottom:25px !important;
+}
+
+.specific-food-card{
+    border: none !important;
+}
+
+@media (max-width: 991px) {
+    .food-banner{
+        padding:5.375rem 0 9.375rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .food-banner{
+        padding:7.375rem 0 9.375rem;
+    }
+}
+

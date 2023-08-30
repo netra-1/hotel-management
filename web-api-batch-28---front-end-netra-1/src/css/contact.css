@@ -1,0 +1,61 @@
+.contact-card{
+    border: none;
+}
+
+.comment-contact{
+    height: 115px !important;
+    resize: none;
+}
+
+/* Contact us */
+.info {
+width: 100%;
+background: #fff;
+}
+
+.info i {
+font-size: 20px;
+color: var(--primary-color);
+float: left;
+width: 44px;
+height: 44px;
+background: #c6d6ec;
+border-radius: 50%;
+transition: all 0.3s ease-in-out;
+}
+
+.info h4 {
+padding: 0 0 0 60px;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 5px;
+color: var(--primary-color);
+}
+
+.info p {
+padding: 0 0 0 60px;
+margin-bottom: 0;
+font-size: 14px;
+color: var(--primary-color);
+}
+
+.info p a {
+text-decoration: none;
+color: var(--primary-color);
+}
+
+.info :hover i {
+background: var(--primary-color);
+color: #fff;
+transition: all 0.5s ease-in-out;
+}
+
+.btn-contact {
+background-color: var(--secondary-color) !important;
+color: white !important;
+}
+
+.btn-contact:hover {
+background-color: var(--hover-color) !important;
+color: white !important;
+}

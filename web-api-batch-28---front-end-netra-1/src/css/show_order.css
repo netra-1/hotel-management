@@ -1,0 +1,67 @@
+.show_order_title{
+    background-color: #535699;
+}
+.d_show_order{
+    background-color: rgb(175, 166, 201);
+}
+
+.g-code{
+    background-color: rgb(197, 191, 216);
+}
+
+.deleteButton {
+    margin-top:6px;
+    padding: 4px 20px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px dotted rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+}
+
+.viewButton {
+    margin-top:6px;
+    padding: 4px 20px;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    border: 1px dotted var(--secondary-color);
+    cursor: pointer;
+}
+
+.g-cart{
+    background-color: rgb(197, 191, 216);
+}
+
+.order-single-card {
+    box-shadow: 3px 3px 10px 1px rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
+}
+
+.order-single-card:hover{
+    box-shadow: 3px 2px 10px 0px rgb(209, 209, 209);
+}
+
+.order_single_image {
+    height: 260px;
+    width: 100%;
+    background-color: rgb(175, 166, 201);
+    border-radius: 8px;
+    object-fit: cover;
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+.order_single_image{
+    transition: all 0.4s ease 0s;
+}
+
+.order_single_image:hover {
+    transform: scale(1.01); 
+  }
+
+.card-body-order p{
+    margin-bottom: -2px !important;
+}
+
+.card-body-order h5{
+    margin-bottom: 5px !important;
+}
